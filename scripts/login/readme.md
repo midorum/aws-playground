@@ -67,7 +67,7 @@ arn:aws:iam::<aws_account_id>:role/<iam_role_name_2>
 * Enter your password for the GPG file
 * Enter the desired session duration (minimum 900 seconds; default is 3600 seconds)
 * Enter the MFA code for your account
-* Choose the desired role for account-wide access
+* Choose whether account-wide access or desired role access
 * Enjoy!
 
 ## Troubleshooting

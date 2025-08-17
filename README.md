@@ -19,7 +19,7 @@ This project is designed for self-paced learning and experimentation using Terra
 ```
 aws-playground/
 │
-├── <service-name>/                    # Terraform configurations for experiments with AWS services
+├── <service-name>/               # Terraform configurations for experiments with AWS services
 │
 ├── terraform-aws-modules/        # Custom or reusable Terraform modules
 │
@@ -78,4 +78,4 @@ aws-playground/
 
 ## License
 
-~~MIT License~~
+Licensed under the MIT License. See LICENSE file in the project root for details.
