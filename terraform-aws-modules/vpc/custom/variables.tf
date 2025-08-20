@@ -26,9 +26,6 @@ variable "private_subnet_cidrs" {
   ]
 }
 
-
-
-
 variable "tags" {
   type = map(string)
   default = {
