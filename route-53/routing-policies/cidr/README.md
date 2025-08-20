@@ -18,7 +18,7 @@ View the configuration plan:
 
 ```
 terraform plan -var hosted_zone_name=example.com. -var domain=testaz.example.com \
-    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]'
+    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]' \
     -var server_1_routes='["93.32.3.143"]' \
     -var server_2_routes='["5.68.101.8"]'
 ```
@@ -41,7 +41,7 @@ Apply the configuration plan:
 
 ```
 terraform apply -var hosted_zone_name=example.com. -var domain=testaz.example.com \
-    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]'
+    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]' \
     -var server_1_routes='["93.32.3.143"]' \
     -var server_2_routes='["5.68.101.8"]'
 ```
@@ -93,7 +93,7 @@ Before moving on, destroy the records you created:
 
 ```
 terraform destroy -var hosted_zone_name=example.com. -var domain=testaz.example.com \
-    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]'
+    -var server_1_cidrs='["93.171.138.0/24","2a02:6ea0:d33b:0000:0000:0000:0000:0000/48"]' \
     -var server_1_routes='["93.32.3.143"]' \
     -var server_2_routes='["5.68.101.8"]'
 ```
